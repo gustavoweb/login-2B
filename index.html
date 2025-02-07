@@ -4,17 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - 2B</title>
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
     <main>
         <h1>Hello!</h1>
-        <p>Sign In to your account</p>
+        <p id="subt">Sign In to your account</p>
         <form action="#">
-            <input type="email" placeholder="E-mail">
-            <input type="password" placeholder="Password">
+            <input type="email" placeholder="E-mail" class="inpt" id="email">
+            <input type="password" placeholder="Password" class="inpt" id="pass">
             <p>Forgot your passoword?</p>
             <button>Log In</button>
         </form>
+        <p>Don't have an account? <a href="#">Create</a></p>
+        <p>OR</p>
+        <div class="bt-login" id="bt-google"></div>
+        <div class="bt-login" id="bt-apple"></div>
+        <div class="bt-login" id="bt-github"></div>
     </main>
 </body>
 </html>
